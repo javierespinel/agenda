@@ -1,0 +1,85 @@
+body {
+  background-color: #FF9A3C
+}
+
+p{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -15px;
+  margin-left: 12px;
+  text-align: left;
+
+}
+
+.buscar{
+  margin: 2px;
+}
+
+.submit-buscar{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 30px;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 5;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 5px;
+  border: 2px solid #0016b0;
+}
+
+.submit-buscar:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+
+.submit1{
+  margin-top: 15px;
+  margin-left: 14px;
+  text-align: center;
+  height: 45px;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 5;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 5px;
+  border: 2px solid #0016b0;
+}
+
+.submit1:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+
+.text{
+  margin-left: 12px;
+  border: 1px solid rgba(9, 113, 163, 1);
+  border-radius: 10px;
+  width: 300px;
+}
+.busqueda{
+  background-image: url('lupa.ico');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: 1px solid rgba(9, 113, 163, 1);
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  height: 25px;
+}
+
+.info{
+  margin-top: 6px;
+}

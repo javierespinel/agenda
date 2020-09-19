@@ -1,0 +1,55 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js"></script>
+  <meta charset="utf-8">
+  <script type="text/javascript"></script>
+</head>
+<body>
+<center>
+
+  <form name="form1" id="form1" autocomplete="on">
+  <table border="2">
+  <tr>
+    <th style="width:auto; height:auto;">
+      <div class="buscar">
+        <input type="text" id="busqueda" class="busqueda" placeholder="Buscar...">
+        <input type="button" onclick="buscar_p()" class="submit-buscar" value="Buscar">
+      </div>
+    </th>
+  </tr>
+
+  <tr>
+    <td>
+      <input type="button" onclick="enviar_formulario()" class="submit1" value="Crear contacto" style="margin-top:4px; margin-bottom:4px;">
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="info" id="info" style="margin-bottom: 12px;">
+        <p>Nombre </p><br>
+        <input type="text" class="text" id="nombre">
+        <p>Dirección </p><br>
+        <input type="text" class="text" id="dir">
+        <p>Teléfono </p><br>
+        <input type="text" class="text" id ="tel"><br>
+        <input type="button" class="submit1" value="Editar">
+        <input type="button" onclick="f_eliminar()"  class="submit1" value="Eliminar">
+        <input type="button" onclick="limpiar()"  class="submit1" value="Limpiar">
+      </div>
+      <div style="display:none; margin-top: 10px;" id="info2">
+        <p>Eliminar contacto</p><br>
+        <p>Nombre</p><br>
+        <input type="text" class="text" id="nom_eliminar"><br>
+        <input type="button" onclick="eliminar()" id="b_eliminar" style="margin-top:1px; margin-bottom:8px;" class="submit1" value="Eliminar contacto">
+        <input type="button" class="submit1" style="margin-bottom: 12px;" id="volver" onclick="atras()" value="Volver">
+      </div>
+    </td>
+  </tr>
+  </table>
+
+  </form>
+</center>
+</body>
+</html>
